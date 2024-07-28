@@ -55,19 +55,21 @@ ul {
 
 @media (max-width: 480px) {
   .imgdespues {
-   margin-bottom: 1rem;
+    margin-bottom: 1rem;
   }
   .antes {
     display: grid;
     justify-content: center;
     align-content: center;
-   height: 220px;
-   width: 300px;
-   padding: 5rem 0.5rem;
- 
+    height: 220px;
+    width: 300px;
+    padding: 5rem 0.5rem;
+  }
+
+  #buttonenv {
+    margin-bottom: 1rem;
   }
   .texto {
-    
     color: white;
     margin-top: 10px;
     margin-left: 25px;
@@ -75,10 +77,8 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    
   }
   .despues {
-    
     height: 220px;
     width: 300px;
     background-color: #1e2631;
@@ -87,7 +87,7 @@ ul {
     align-items: center;
     padding: 5rem 0.5rem;
   }
-  
+
   .estrella {
     width: 0.75rem;
     height: 2rem;
@@ -97,7 +97,6 @@ ul {
     background-color: rgb(51, 49, 49);
     padding: 0.75rem;
     align-items: center;
-    
   }
 }
 @media (min-width: 480px) {
@@ -127,9 +126,6 @@ ul {
   height: 1rem;
   width: 0.75rem;
 }
-
-
-
 
 .contenido-texto {
   line-height: 1.5;
